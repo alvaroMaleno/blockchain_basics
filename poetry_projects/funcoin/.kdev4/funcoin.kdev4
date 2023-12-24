@@ -1,0 +1,40 @@
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1,Launch Configuration 2
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=scriptAppLauncher
+Name=hashing_strings.py
+Type=Script Application
+
+[Launch][Launch Configuration 0][Data]
+Configured from ProjectItem=funcoin,funcoin,hashing_strings.py
+Executable=file:///home/alvaro/Documents/apps/poetry_project/funcoin/funcoin/hashing_strings.py
+Interpreter=python3
+Output Filtering Mode=2
+Run current file=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=scriptAppLauncher
+Name=hashing_files.py
+Type=Script Application
+
+[Launch][Launch Configuration 1][Data]
+Configured from ProjectItem=funcoin,funcoin,hashing_files.py
+Executable=file:///home/alvaro/Documents/apps/poetry_project/funcoin/funcoin/hashing_files.py
+Interpreter=python3
+Output Filtering Mode=2
+Run current file=false
+
+[Launch][Launch Configuration 2]
+Configured Launch Modes=execute
+Configured Launchers=scriptAppLauncher
+Name=hashing_emails.py
+Type=Script Application
+
+[Launch][Launch Configuration 2][Data]
+Executable=file:///home/alvaro/Documents/apps/poetry_project/funcoin/funcoin/hashing_emails.py
+Interpreter=python3
+Output Filtering Mode=2
+Run current file=false
